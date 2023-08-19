@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campus Mart</title>
+    <link rel="stylesheet" href="Design.css">
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@1,500&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@1,500&display=swap" rel="stylesheet">
+<body>
+    <div class="header">
+
+
+    
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+             <!-- <img src="ss\logo.png" width="200px">-->
+             
+            </div>
+                <nav>
+                        <ul id="MenuItems">
+                            <li><a href="page1.html">Logout</a> </li>
+                            <li><a href="product.html">Products</a></li>
+                            <li><a href="">About</a> </li>
+                            <li><a href="">Contact</a> </li>
+                            <a href="#" class="btn">Profile</a>
+                            <!-- <li><a href=""><button> <a href="test1.html" target="_blank">Login  </a></button></a> -->
+                            </li>
+                            
+
+                                
+                        </ul>
+                </nav>
+                <img src="ss\cart.png" height="30px" width="30px">   
+                <img src="ss\menu.png" class="Menu-Icon" onclick="menutoggle()"> 
+        </div>
+        <div class="row">
+            <div class="col-2">
+                <h1><h1>Welcome to CampusMart!</h1></h1>
+                <p>Your go-to destination for affordable college supplies. Our platform connects students on the same campus,<br> making it easy for you to find the items you need at prices you can afford !</p>
+
+                <a href="" class="btn">Explore Now</a>
+            </div>
+            <div class="col-2">
+
+                <img src="ss\page 2 back.png">
+
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+
+   <!-----featured categories---->
+        <div class="CATEGORIES">s
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-3">
+                        <img src="ss\sell 4.jpg">
+                       
+                    </div>
+                    <div class="col-3">
+                        <img src="ss\sell 2.jpg"></div>
+                    <div class="col-3">
+                        <img src="ss\sell 3.jpg">
+                    </div>
+                    
+                </div>
+
+            </div>
+            
+        </div>
+
+
+
+        <hr>
+    
+    <!--featured products -->
+        <div class="small-container">
+            <h2 class="title" >Featured Products</h2>
+            <div class="row">
+                <div class="col-4">
+                    <img src="ss\College stuff/calculator.png">
+                    <h4>Scientific Calculator</h4>
+                    <p>400.Rs</p>
+                    <a href="productdetail.html" class="btn">View More</a> 
+                </div>
+                <div class="col-4">
+                    <img src="ss\College stuff/laptop table.jpg">
+                    <h4>Laptop Table</h4>
+                    <p>$500.00</p>
+                    <a href="productdetail.html" class="btn">View More</a>
+                </div>
+                <div class="col-4">
+                    <img src="ss\College stuff/mini drafter.jpeg">
+                    <h4>Mini Drafter</h4>
+                    <p>$250.00</p>
+                    <a href="productdetail.html" class="btn">View More</a>
+                </div>
+                <div class="col-4">
+                    <img src="ss\College stuff/sheet container.jpg">
+                    <h4>Sheet Container</h4>
+                    <p>$200.00</p>
+                    <a href="productdetail.html" class="btn">View More</a>
+                </div>
+                
+            </div>
+            <h2 class="title" >Latest Products</h2>
+            <div class="row">
+                <div class="col-4">
+                    <img src="ss\College stuff/roller scale.jpg">
+                    <h4>Roller Scale</h4>
+                    <p>$850.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="ss\College stuff/Engineering-Mathematics-I.jpg">
+                    <h4>Engineering Mathhematics-1</h4>
+                    <p>$900.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="ss\College stuff/Engineering-Mathematics-III.jpg">
+                    <h4>Engineering-Mathematics-III</h4>
+                    <p>$450.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="ss\College stuff/exclusive.png">
+                    <h4>Exclusive Smart-Band</h4>
+                    <p>$500.00</p>
+                </div>
+                <div class="row">
+                    <div class="col-4">
+                        <img src="ss\College stuff/product-9.jpg">
+                        <h4>Red Printed T-shirt</h4>
+                        <p>$150.00</p>
+                    </div>
+                    <div class="col-4">
+                        <img src="ss\product-10.jpg">
+                        <h4>Red Printed T-shirt</h4>
+                        <p>$500.00</p>
+                    </div>
+                    <div class="col-4">
+                        <img src="ss\product-11.jpg">
+                        <h4>Red Printed T-shirt</h4>
+                        <p>$250.00</p>
+                    </div>
+                    <div class="col-4">
+                        <img src="ss\product-12.jpg">
+                        <h4>Red Printed T-shirt</h4>
+                        <p>$200.00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- js for toggle menu -->
+        <script>
+            var MenuItems = document.getElementById("MenuItems")
+
+            MenuItems.style.maxHeight="0px";
+            function menutoggle()
+            {
+                if(MenuItems.style.maxHeight =="0px")
+                {
+                    MenuItems.style.maxHeight="200px"
+                }
+                else
+                {
+                    (MenuItems.style.maxHeight =="0px")
+
+                }
+
+            }
+        </script>
+
+
+
+        
+      
+ 
+
+</body>
+</html>

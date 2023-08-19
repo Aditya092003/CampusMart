@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details -- CampusMart</title>
+    <link rel="stylesheet" href="Design.css">
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@1,500&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@1,500&display=swap" rel="stylesheet">
+<body>
+   
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+              <!-- <img src="ss\logo.png" width="200px"> -->
+             
+            </div>
+                <nav>
+                        <ul id="MenuItems">
+                            <li><a href="page2.html">Home</a> </li>
+                            <li><a href="product.html">Products</a> </li>
+                            <li><a href="">About</a> </li>
+                            <li><a href="">Contact</a> </li>
+                            <a href="" class="btn" target="_blank">Profile</a>
+                            <!-- <li><a href=""><button> <a href="test1.html" target="_blank">Login  </a></button></a> -->
+                            </li>
+                            
+
+                                
+                        </ul>
+                </nav>
+                <img src="ss\cart.png" height="30px" width="30px"> 
+                <img src="ss\menu.png" class="Menu-Icon" onclick="menutoggle()"> 
+        </div>
+        
+    </div>
+
+
+
+     <!-- single product detail -->
+
+ <div class="small-container">
+    <div class="row">
+        <div class="col-2">
+            <img src="ss\College stuff/calculator.png" width="50%">
+        </div>
+        <div class="col-2">
+            <p>Scientific Calculator</p>
+            <h1>ORPAT Calculator</h1>
+          
+            <h4>400.RS</h4>
+            <!-- <select>
+                <option>Select Size</option>
+                <option>XXL</option>
+                <option>XL</option>
+                <option>Large</option>
+                <option>Medium</option>
+                <option>Small</option>
+            </select>  -->
+
+            <a href="" class="btn">Buy Now</a>
+            <a href="" class="btn">Add To Cart</a>
+            <h3>Product Details</h3>
+            <br>
+            <p>Good Condition || Used for 2 yaers || This scientific calculator has been gently used for two years and is in excellent condition. It has been well-maintained and all functions are fully operational.</p>
+        </div>
+    </div>
+</div>
+
+<!-- Title -->
+<div class="small-container">
+    <div class="Header">
+        <h2>
+            Related Products
+        </h2>
+        <!-- <p>View More</p> -->
+    </div>
+</div>
+
+
+      
+        <div class="small-container">
+            
+            
+                       <div class="row">
+                <div class="row">
+                    <div class="col-4">
+                        <img src="ss\College stuff/product-9.jpg">
+                        <h4>Red Printed T-shirt</h4>
+                        <p>$150.00</p>
+                    </div>
+                    <div class="col-4">
+                        <img src="ss\product-10.jpg">
+                        <h4>Red Printed T-shirt</h4>
+                        <p>$500.00</p>
+                    </div>
+                    <div class="col-4">
+                        <img src="ss\product-11.jpg">
+                        <h4>Red Printed T-shirt</h4>
+                        <p>$250.00</p>
+                    </div>
+                    <div class="col-4">
+                        <img src="ss\product-12.jpg">
+                        <h4>Red Printed T-shirt</h4>
+                        <p>$200.00</p>
+                    </div>
+                </div>
+            </div>
+            
+            
+        <!-- js for toggle menu -->
+        <script>
+            var MenuItems = document.getElementById("MenuItems")
+
+            MenuItems.style.maxHeight="0px";
+            function menutoggle()
+            {
+                if(MenuItems.style.maxHeight =="0px")
+                {
+                    MenuItems.style.maxHeight="200px"
+                }
+                else
+                {
+                    (MenuItems.style.maxHeight =="0px")
+
+                }
+
+            }
+        </script>
+
+
+
+        
+      
+ 
+
+</body>
+</html>
